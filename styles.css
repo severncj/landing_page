@@ -1,0 +1,61 @@
+/*
+dark background color (hero and footer): #1F2937
+Hero main text 48px extra-bold #F9FAF8
+Hero Secondary text 18px #E5E7EB
+Header logo 24px #F9FAF8
+Button color, CTA background color #3882F6
+information header text 36px extra-bold #1F2937
+Quote section background color #E5E7EB
+Quote text 36px light italic #1F2937
+Roboto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 100px 0 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image-div {
+    flex: 1;
+}
+
+.hero-image {
+    width: 400px;
+    height: auto;
+}
+
