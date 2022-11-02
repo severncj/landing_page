@@ -43,11 +43,32 @@ a {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-copy {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .hero-text {
     flex: 1;
+    width: 400px;
+
 }
 
 .hero-image-div {
